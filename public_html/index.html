@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html><head>
+        <title>GAME-UP</title>
+        <!--puxando aquivo separado js-->
+        <script src="sprite.js"></script>
+        <meta charset = "utf-8"/>
+        <style>
+
+            h4{
+                color: WHITE;
+               	font-family: ARIAL;
+               	font-size: 17px;
+
+            }
+            h2{
+               	color: #4682B4;
+               	font-family: ARIAL;
+               	font-size: 24px;
+
+
+
+            }
+            h3{
+               	color: WHITE;
+               	font-family: ARIAL;
+               	font-size: 80PX;
+
+
+            }  
+
+            #menu{
+
+                width: 300px;
+                color: white;
+                background: black;
+                z-index: 1300px;
+
+            }
+
+            #menu ul {
+                margin:0;
+                padding:0;
+                list-style: none;
+                float:left;
+                width:100%;
+            }
+            #menu ul li{
+                float: left;
+                font-size: 42px time new roman; /*=== fonte===*/
+
+
+
+            }
+
+            #menu ul li a{
+                padding: 240px;
+                text-decoration: none; /*=== decoration===*/
+                float: right;
+                color: white;
+                display: block;
+                padding: 10px;
+
+            }
+
+            #menu ul li a:hover{ /*=== pseudo-class===*/
+                background: grey;
+            }
+
+
+
+
+        </style>
+    </head>
+    <!--body junto com background-->
+
+    <body background="bg.png">
+
+        <!--código para musica tema-->
+        <audio autoplay="autoplay"> <source src="song.mp3" type="audio/mp3" /> </audio>
+
+    <center>
+        <table><img border = "1" src="logo.png" align = "center" width = "400px" height ="200px"></table>
+        <h3> GAME-UP</h3>
+
+        <h2>Escolha abaixo o modo para jogar:</h2>
+
+
+        <div id = "menu">
+
+
+            <center>  <ul>
+                    <li><a href="facil.html">FÁCIL</a></li>
+                    <li><a href="normal.html">NORMAL <a/></li>
+                    <li><a href="dificio.html"> DÍFICIO <a/></li>
+                </ul> </div><center>
+
+            <br><br><br><br><br>
+            <h4>Por: Emelyn Freire ** 2015 ** GAME-UP                      
+                <br>Música:Rihanna - Bitch Better Have My Money (Official Instrumental)</h4>
+
+
+        </center>
+
+    </body>
+
+</html>
